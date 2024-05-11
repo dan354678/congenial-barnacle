@@ -2,6 +2,19 @@ body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 }
+
+
+
+body {
+	padding-top: 54px;
+  }
+  
+  @media (min-width: 992px) {
+	body {
+	  padding-top: 56px;
+	}
+  }
+  
 *{
 	margin:0;
 	padding:0;
@@ -90,3 +103,10 @@ ul{
     width: 100%;
 }
 }
+/*!
+ * Start Bootstrap - Logo Nav (https://startbootstrap.com/template-overviews/logo-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logo-nav/blob/master/LICENSE)
+ */
+
+ 
