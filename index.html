@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="request.html">Request</a>
+  <a href="schedule.html">schedule</a>
+  <div class="dropdown">
+    <button class="dropbtn">About us 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/aboutus/ourteam.html">Our Team</a>
+      <a href="/aboutus/contact.html">Contact</a>
+    </div>
+  <div class="dropdown">
+    <button class="dropbtn">Listen 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Radiant Country</a>
+      <a href="/listen/radianthits.php">Radiant Hits</a>
+      <a href="#">Radiant Oldies</a>
+    </div>
+  </div> 
+</div>
+
+
+<div class="p-2 bg-gray-800 text-white align-middle footer">
+
+    <div class="grid grid-cols-3 gap-4">
+        <div>
+            <p class="w-2/4 float-right">
+              Radiant Productions is a non-profit organisation and is not affiliated with any other organisation.
+            </p>
+        </div>
+        <div class="text-center self-end">
+            <p>Copyright &copy; 2024- <span id="year"></span> Radiant Productions. All Rights Reserved</p>
+            <p>
+                <a href="">Privacy Policy</a>
+                |
+                <a href="">Terms of Service</a>
+            </p>
+
+             <a href="//www.dmca.com/Protection/Status.aspx?ID=047aba24-cff1-49b4-adc8-d94477f1abc4" 
+             title="DMCA.com Protection Status" 
+             class="dmca-badge"> 
+             <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-05.png?ID=047aba24-cff1-49b4-adc8-d94477f1abc4"  
+             alt="DMCA.com Protection Status" /></a>  
+            <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+        </div>
+
+
